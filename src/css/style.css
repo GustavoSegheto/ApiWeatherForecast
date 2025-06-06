@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 
 .hide {
@@ -22,6 +23,7 @@ body {
     padding: 2rem;
     color: #fdfdfd;
     border-radius: 1rem;
+    max-width: 400px;
 }
 
 .form h3{
@@ -33,7 +35,7 @@ body {
 }
 
 .form input{
-    padding: .8rem;
+    padding: 0.8rem;
     border: none;
     flex: 1;
     border-radius: 4px;
@@ -70,8 +72,12 @@ body {
     font-size: 1rem;
 }
 
-#weather-datta span{
+#weather-data span{
     margin:0.6rem;
+}
+
+#temperature{
+    font-size: 4rem;
 }
 
 #country {
@@ -85,13 +91,18 @@ body {
     margin: 0.6rem 0;
 }
 
+#description{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
 #details-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#details-container #umidity{
+#details-container #humidity{
     border-right: 1px solid #fff;
     margin: 0.6rem ;
     padding: 0.6rem;
